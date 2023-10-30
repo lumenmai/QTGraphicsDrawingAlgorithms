@@ -21,6 +21,8 @@ Feel free to modify the names and descriptions according to your preferences. Go
 
 # MyPaint
 
+![MyPaint 效果展示](MyPaint.png)
+
 MyPaint 是一个使用Qt 6.6.0和MinGW 64位编译器构建的绘图软件。
 
 ## 构建说明
@@ -61,8 +63,6 @@ mingw32-make
 
 
 ---
-
-# MyPaint
 
 MyPaint is a drawing software built using Qt 6.6.0 and the MinGW 64-bit compiler in Release mode.
 
