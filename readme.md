@@ -1,4 +1,23 @@
----
+**Description (描述)**:
+This GitHub repository provides a comprehensive collection of graphics drawing algorithms implemented in QT, aiming to help beginners grasp the fundamentals of computer graphics. The software includes various algorithms for drawing lines, circles, polygons, and curves, offering help for those learning QT programming and computer graphics concepts.
+
+该GitHub仓库提供了在QT中实现的一系列图形绘制算法，旨在帮助初学者掌握计算机图形学的基础知识。该软件包括了用于绘制直线、圆、多边形和曲线的各种算法，为学习QT编程和计算机图形概念的人提供帮助。
+
+**Included Drawing Algorithms (包含的绘图算法)**:
+1. GDDA直线算法 (GDDA Line Algorithm)
+2. 中点直线算法 (Midpoint Line Algorithm)
+3. Bresenham直线算法 (Bresenham Line Algorithm)
+4. 中点圆算法 (Midpoint Circle Algorithm)
+5. Bresenham圆算法 (Bresenham Circle Algorithm)
+6. AET多边形填充算法 (AET Polygon Fill Algorithm)
+7. Flood Fill 4连通区域填充算法 (Flood Fill 4 Connectivity Algorithm)
+8. Scanline Fill 4连通区域填充算法 (Scanline Fill 4 Connectivity Algorithm)
+9. Cohen-Sutherland裁剪算法 (Cohen-Sutherland Clipping Algorithm)
+10. Liang-Barsky裁剪算法 (Liang-Barsky Clipping Algorithm)
+11. Sutherland-Hodgeman多边形裁剪算法 (Sutherland-Hodgeman Polygon Clipping Algorithm)
+12. 贝塞尔曲线算法 (Bezier Curve Algorithm)
+
+Feel free to modify the names and descriptions according to your preferences. Good luck with your QT graphics drawing algorithms project!祝你在QT图形绘制算法项目中好运！---
 
 # MyPaint
 
