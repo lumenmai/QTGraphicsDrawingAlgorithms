@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icons/AETPoly_icon.png</file>
+        <file>icons/BezierCurve_icon.png</file>
+        <file>icons/BresenhamCircle_icon.png</file>
+        <file>icons/BresenhamLine_icon.png</file>
+        <file>icons/ClipWinSetting_icon.png</file>
+        <file>icons/Cohen-Sutherland_Clip_icon.png</file>
+        <file>icons/DDA_icon.png</file>
+        <file>icons/FloodFill4_icon.png</file>
+        <file>icons/Liang-Barsky_Clip_icon.png</file>
+        <file>icons/MidPoint_icon.png</file>
+        <file>icons/MidPointCircle_icon.png</file>
+        <file>icons/PenSetting_icon.png</file>
+        <file>icons/polygon_Clip_icon.png</file>
+        <file>icons/ScanLineFill4_icon.png</file>
+    </qresource>
+</RCC>

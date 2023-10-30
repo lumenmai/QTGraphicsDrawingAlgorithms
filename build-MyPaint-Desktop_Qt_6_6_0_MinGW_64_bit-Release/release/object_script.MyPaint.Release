@@ -1,0 +1,11 @@
+release/beziersettingdialog.o
+release/clipwindowsettingdialog.o
+release/main.o
+release/mainwindow.o
+release/pensettingdialog.o
+release/qrc_tools_icons.o
+release/qrc_qmake_qmake_qm_files.o
+release/moc_beziersettingdialog.o
+release/moc_clipwindowsettingdialog.o
+release/moc_mainwindow.o
+release/moc_pensettingdialog.o

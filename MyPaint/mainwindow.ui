@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionPenSetting"/>
+   <addaction name="actionDDALine"/>
+   <addaction name="actionMidPointLine"/>
+   <addaction name="actionBresenhamLine"/>
+   <addaction name="actionMidPointCircle"/>
+   <addaction name="actionBresenhamCircle"/>
+   <addaction name="actionGAETPolygon"/>
+   <addaction name="actionFloodFill4"/>
+   <addaction name="actionScanLineFill4"/>
+   <addaction name="actionClipWindow"/>
+   <addaction name="actionCohen_SutherLandClip"/>
+   <addaction name="actionLiang_BarskyClip"/>
+   <addaction name="actionPolygon_Clip"/>
+   <addaction name="actionBezierCurve"/>
+  </widget>
+  <action name="actionDDALine">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/DDA_icon.png</normaloff>:/new/prefix1/icons/DDA_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>DDALine</string>
+   </property>
+   <property name="toolTip">
+    <string>DDA直线扫描</string>
+   </property>
+  </action>
+  <action name="actionMidPointLine">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/MidPoint_icon.png</normaloff>:/new/prefix1/icons/MidPoint_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>MidPointLine</string>
+   </property>
+   <property name="toolTip">
+    <string>中点画线法</string>
+   </property>
+  </action>
+  <action name="actionBresenhamLine">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/BresenhamLine_icon.png</normaloff>:/new/prefix1/icons/BresenhamLine_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>BresenhamLine</string>
+   </property>
+   <property name="toolTip">
+    <string>Bresenham画线法</string>
+   </property>
+  </action>
+  <action name="actionMidPointCircle">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/MidPointCircle_icon.png</normaloff>:/new/prefix1/icons/MidPointCircle_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>MidPointCircle</string>
+   </property>
+   <property name="toolTip">
+    <string>中点画圆法</string>
+   </property>
+  </action>
+  <action name="actionBresenhamCircle">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/BresenhamCircle_icon.png</normaloff>:/new/prefix1/icons/BresenhamCircle_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>BresenhamCircle</string>
+   </property>
+   <property name="toolTip">
+    <string>Bresenham画圆法</string>
+   </property>
+  </action>
+  <action name="actionPenSetting">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/PenSetting_icon.png</normaloff>:/new/prefix1/icons/PenSetting_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>PenSetting</string>
+   </property>
+   <property name="toolTip">
+    <string>设置画笔</string>
+   </property>
+  </action>
+  <action name="actionGAETPolygon">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/AETPoly_icon.png</normaloff>:/new/prefix1/icons/AETPoly_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>GAETPolygon</string>
+   </property>
+   <property name="toolTip">
+    <string>改进的X扫描线方法</string>
+   </property>
+  </action>
+  <action name="actionFloodFill4">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/FloodFill4_icon.png</normaloff>:/new/prefix1/icons/FloodFill4_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>FloodFill4</string>
+   </property>
+   <property name="toolTip">
+    <string>种子填充</string>
+   </property>
+  </action>
+  <action name="actionScanLineFill4">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/ScanLineFill4_icon.png</normaloff>:/new/prefix1/icons/ScanLineFill4_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>ScanLineFill4</string>
+   </property>
+   <property name="toolTip">
+    <string>扫描线填充</string>
+   </property>
+  </action>
+  <action name="actionClipWindow">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/ClipWinSetting_icon.png</normaloff>:/new/prefix1/icons/ClipWinSetting_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>ClipWindow</string>
+   </property>
+   <property name="toolTip">
+    <string>设置裁剪窗口</string>
+   </property>
+  </action>
+  <action name="actionCohen_SutherLandClip">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/Cohen-Sutherland_Clip_icon.png</normaloff>:/new/prefix1/icons/Cohen-Sutherland_Clip_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cohen_SutherLandClip</string>
+   </property>
+   <property name="toolTip">
+    <string>Cohen_SutherLand裁剪算法</string>
+   </property>
+  </action>
+  <action name="actionLiang_BarskyClip">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/Liang-Barsky_Clip_icon.png</normaloff>:/new/prefix1/icons/Liang-Barsky_Clip_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Liang_BarskyClip</string>
+   </property>
+   <property name="toolTip">
+    <string>梁友栋-Barsky直线段裁剪</string>
+   </property>
+  </action>
+  <action name="actionPolygon_Clip">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/polygon_Clip_icon.png</normaloff>:/new/prefix1/icons/polygon_Clip_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Polygon_Clip</string>
+   </property>
+   <property name="toolTip">
+    <string>Sutherland-Hodgeman多边形裁剪</string>
+   </property>
+  </action>
+  <action name="actionBezierCurve">
+   <property name="icon">
+    <iconset resource="tools_icons.qrc">
+     <normaloff>:/new/prefix1/icons/BezierCurve_icon.png</normaloff>:/new/prefix1/icons/BezierCurve_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>BezierCurve</string>
+   </property>
+   <property name="toolTip">
+    <string>Bezier曲线</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="tools_icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
