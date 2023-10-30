@@ -35,10 +35,10 @@ MyPaint 是一个使用Qt 6.6.0和MinGW 64位编译器构建的绘图软件。
 
 3. **构建项目**: 在命令行中，进入`build-MyPaint-Desktop_Qt_6_6_0_MinGW_64_bit-Release`文件夹，运行以下命令进行构建：
 
-    ```
-    qmake ..
+```
+qmake ..
 mingw32-make
-    ```
+```
 
 4. **运行软件**: 构建完成后，你可以在`build-MyPaint-Desktop_Qt_6_6_0_MinGW_64_bit-Release`文件夹中找到可执行文件，运行它即可启动MyPaint。
 
