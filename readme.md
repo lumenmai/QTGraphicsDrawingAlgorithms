@@ -17,7 +17,9 @@ This GitHub repository provides a comprehensive collection of graphics drawing a
 11. Sutherland-Hodgeman多边形裁剪算法 (Sutherland-Hodgeman Polygon Clipping Algorithm)
 12. 贝塞尔曲线算法 (Bezier Curve Algorithm)
 
-Feel free to modify the names and descriptions according to your preferences. Good luck with your QT graphics drawing algorithms project!祝你在QT图形绘制算法项目中好运！---
+Good luck with your QT graphics drawing algorithms project!祝你在QT图形绘制算法项目中好运！
+
+---
 
 # MyPaint
 
