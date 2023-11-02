@@ -61,7 +61,7 @@ mingw32-make
 
 ## 许可证
 
-该项目基于MIT许可证。详细信息请参阅[LICENSE](LICENSE.txt)文件。
+该项目基于MIT许可证。详细信息请参阅[LICENSE](LICENSE)文件。
 
 
 ---
@@ -102,6 +102,6 @@ If you find bugs or have suggestions for improvements, feel free to submit an is
 
 ## License
 
-This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE.txt) file.
+This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
 
 ---
